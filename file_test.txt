@@ -1,0 +1,11 @@
+create table tab01 as
+select
+    var1,
+    var2
+from table;
+
+create table tab02 as
+select
+    var1,
+    var2
+from table;
