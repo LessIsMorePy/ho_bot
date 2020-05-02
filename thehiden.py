@@ -30,7 +30,7 @@ shuffle(files)
 for path in files:
 
     file = open(path, mode='r')
-    pyautogui.write(file.read(), interval=0.15)
+    pyautogui.write(file.read(), interval=0.05)
     file.close()
 
 # save and close notepad
